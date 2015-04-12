@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>$gatewayname</title>
+
+    <!-- Bootstrap -->
+    <link href="http://192.168.1.1/nodogsplash-static/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="http://192.168.1.1/nodogsplash-static/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://192.168.10.1/nodogsplash-static/html5shiv.min.js"></script>
+      <script src="http://192.168.10.1/nodogsplash-static/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+    <div id="login-overlay" class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Wifi login</h4>
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-sm-8">
+                      <div class="well">
+                      <p class="lead"><span class="text-success">Điều khoản sử dụng
+</span></p>
+                      <ul class="list-unstyled" style="line-height: 2; font-size: 15px">
+                          <li>☑ Không gây ồn ào sau 22h hoặc lúc mọi người đang nghỉ ngơi</li>
+                          <li>☑ Giữ gìn vệ sinh thật tốt</li>
+                          <li>☑ Khiêm tốn thật thà dũng cảm :v</li>
+                          <li>☑ Games and *** are fine, but use your headphone, please :3</small></li>
+                      </ul>
+                          <form id="loginForm" method="GET" action="$authaction" novalidate="novalidate">
+				<input type='hidden' name='tok' value='$tok' />
+				<input type='hidden' name='redir' value='$redir' />
+                              <!-- <div class="form-group">
+                                  <label for="nodoguser" class="control-label">Tên truy cập</label>
+                                  <input type="text" class="form-control" id="nodoguser" name="nodoguser" value="" required="" title="Bạn cần nhập tên truy cập">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="nodogpass" class="control-label">Mật khẩu</label>
+                                  <input type="password" class="form-control" id="nodogpass" name="nodogpass" value="" required="" title="Có tên truy cập mà không có mật khẩu cũng không được đâu pa" />
+                                  <span class="help-block"></span>
+                              </div>
+                              <div id="loginErrorMsg" class="alert alert-error hide">Tên truy cập hoặc mật khẩu sai</div>
+			      --//-->
+                              <button type="submit" class="btn btn-success btn-block">Đồng ý</button>
+                          </form>
+		      </div>
+                  </div>
+
+                  <div class="col-sm-4">
+                      <p class="lead">Để:</p>
+                      <ul class="list-unstyled" style="line-height: 2; font-size: 15px">
+                          <li>☑ Báo hư/hỏng thiết bị, sự cố...</li>
+			</ul>
+                      <span class="text-success">Liên hệ: 
+</span>
+                  </div>
+              </div>
+<em>* Nhấn "Đồng ý để" tiếp tục sử dụng</em>
+          </div>
+      </div>
+  </div
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://192.168.10.1/nodogsplash-static/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://192.168.10.1/nodogsplash-static/bootstrap.min.js"></script>
+  </body>
+</html>
